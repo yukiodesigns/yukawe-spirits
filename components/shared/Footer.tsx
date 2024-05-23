@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Payment Column */}
           <div className="w-80 sm:w-64 md:w-1/3 px-4 mb-6 md:mb-0">
             <h2 className="text-lg font-semibold mb-4">Payment</h2>
-            <div className="border border-gray-500 p-4 rounded-lg">
+            <div className="border border-gray-500 p-4 rounded-lg sm:text-center">
               <p>Account Number: 1234 5678 9012</p>
               <p>Business Number: 987654</p>
             </div>
