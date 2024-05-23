@@ -11,7 +11,7 @@ const ProductsGrid = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-1 gap-y-4 md:gap-2">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-1 gap-y-4 md:gap-2 mt-1">
       {products.map((product) => (
         <ProductCard key={product.id} title={product.title} image={product.image} />
       ))}
